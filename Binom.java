@@ -67,10 +67,13 @@ public class Binom {
             }
 
             INNER: for (int c = 2; c <= i; c++) {
-                // If
+                // Ignore non-prime numbers.
                 if (!primes[c])
                     continue INNER;
+                    
                 int over = overflow(baseRep(j, c), baseRep((i - j), c), c);
+                // Print out the base according to how many overflows were 
+                // calculated in the addition.
                 for (int m = 0; m < over; m++) {
                     System.out.print(c + " ");
                 }
