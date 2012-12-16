@@ -3,7 +3,7 @@ Factoring-Large-Binomial-Coefficients
 
 Problem Statement
 -----------------
-Factoring Large Binomial Coefficients The binomial coefficient (n choose m)
+The binomial coefficient (n choose m)
 for two non-negative numbers n >= m >= 0is defined as 
 (n choose m) = n!/(m!(n - m)!).Binomial coefficients can be quite large,
 even for small n, but thanks to their structure can be factored with relative
